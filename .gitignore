@@ -23,3 +23,5 @@ build/
 # Runtime
 .cache/
 tmp/
+.claude
+
