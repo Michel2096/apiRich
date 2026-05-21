@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/Tauru/OneDrive/Im�genes/Documentos/**)"
+      "Read(//c/Users/Tauru/OneDrive/Im�genes/Documentos/**)",
+      "Bash(npm install *)"
     ]
   }
 }
