@@ -1,0 +1,24 @@
+{
+  "name": "apirich",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michel2096/apiRich.git"
+  },
+  "author": "Taurus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michel2096/apiRich/issues"
+  },
+  "homepage": "https://github.com/Michel2096/apiRich#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
