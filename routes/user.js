@@ -5,22 +5,26 @@ const route = express.Router();
 
 route.get('/', getUsers);
 
-/** 
+/**
  * @swagger
  * /api/users:
  *   post:
- *   summery: create usuario
- *   tags: 
- *     - Users
+ *     summary: Crear usuario
+ *     tags:
+ *       - Users
  *     requestBody:
- *     required: True
- *     content. 
- *       application/json:
- *         schema:
- *            type: object:
- *              properties:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
  *               name:
- *                type: string
+ *                 type: string
+ *                 example: "Taurus Silver"
+ *     responses:
+ *       201:
+ *         description: Usuario creado exitosamente
  */
 
 

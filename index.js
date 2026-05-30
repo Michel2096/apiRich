@@ -5,12 +5,13 @@ import connectDB from './config/db.js';
 import userRoutes from './routes/user.js';
 import { ipFilter } from './middleware/ipFilter.js';
 import swaggerSpec from './config/swagger.js';
+import cors from 'cors';
 
 
 
 
 dotenv.config();
-
+app.use(cors());         //instanciamos todo el proceso dentro de la api
 const app = express();
 
 app.use(express.json());
