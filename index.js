@@ -11,11 +11,10 @@ import cors from 'cors';
 
 
 dotenv.config();
-app.use(cors());         //instanciamos todo el proceso dentro de la api
 const app = express();
 
 app.use(express.json());
-
+app.use(cors()) // Habilitar CORS para todas las rutas
 app.use ('/api/docs',
     swaggerUI.serve,
     swaggerUI.setup(swaggerSpec)
