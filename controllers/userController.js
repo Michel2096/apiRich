@@ -6,8 +6,10 @@ export const createUser = async (req, res) => {
         const user = await User.create({ name });
         res.status(201).json({
             message: 'Usuario creado',
-            user
+            data: user
         });
+
+        // Delimitar error de validación de Mongoose
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
