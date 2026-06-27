@@ -8,8 +8,6 @@ import swaggerSpec from './config/swagger.js';
 import cors from 'cors';
 
 
-
-
 dotenv.config();
 const app = express();
 
